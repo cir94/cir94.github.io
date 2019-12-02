@@ -22,7 +22,7 @@ let pokemonAPI1 = async (id) => {
   let req = await fetch(`https://fizal.me/pokeapi/api/v2/id/${id}.json`)
   let data = await req.json()
 
-  console.log(data)
+  // console.log(data)
 
   pokemon1 = () => {
 
@@ -60,7 +60,7 @@ let pokemonAPI2 = async (id) => {
   let req = await fetch(`https://fizal.me/pokeapi/api/v2/id/${id}.json`)
   let data = await req.json()
 
-  console.log(data)
+  // console.log(data)
 
   pokemon2 = () => {
 
@@ -98,7 +98,7 @@ let pokemonAPI3 = async (id) => {
   let req = await fetch(`https://fizal.me/pokeapi/api/v2/id/${id}.json`)
   let data = await req.json()
 
-  console.log(data)
+  // console.log(data)
 
   pokemon3 = () => {
     pokeName3.innerText = ''
